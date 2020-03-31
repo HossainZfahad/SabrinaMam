@@ -1,0 +1,85 @@
+body{
+    background: url(learn%202.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: fantasy;
+    height:1000px;
+}
+.logo{
+    top:50px;
+    height: 50px;
+    opacity: .7;
+    border-radius: 20px;
+    background-color: lawngreen;
+}
+.logo p{   
+    font-size: 40px;
+    text-align: center;
+    opacity:100%;
+    
+}  
+.menu ul li:hover{ 
+   
+    background-color: lawngreen;
+    
+    
+}
+
+.menu ul li{ 
+    display: flex;
+    width:130px;
+    padding: 15px;
+    background-color: white;
+    opacity: .8;
+    align-content: center;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration:none;
+    color:black;
+    font-size: 25px;   
+}
+.detail ul li:hover{ 
+   
+    background-color: lawngreen;    
+}
+.detail{
+    float: right;
+        margin-top: 50px;
+}
+.detail ul li{ 
+     width: 270px;
+    padding: 10px;
+    background-color: white;
+    opacity: .8;
+    align-content: center;
+    list-style: none;
+}
+.detail ul li a{
+    text-decoration:none;
+    color:black;
+    font-size: 25px;   
+}
+.mypic img{
+    border-style: solid;
+    border-color: white;
+    margin: 15px;
+    border-width: 2px;
+    height: 130px;
+    width:  130px;
+    float: right;
+    border-radius: 50%;
+    
+}
+footer{
+    font-family: monospace;
+    font-weight: 1000;
+    font-size: 15px;
+    color: white;
+    height: 50px;
+    display: block;
+    bottom: 0;
+   right: 10px;
+    position: absolute;
+    
+}
